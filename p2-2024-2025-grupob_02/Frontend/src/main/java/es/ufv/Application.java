@@ -15,4 +15,11 @@ public class Application implements AppShellConfigurator {
     public static void main(String[] args) {
         SpringApplication.run(Application.class, args);
     }
+    //Cmabiar el main view con el diseño que pida en el examen
+    //Dentro de model quitar las clases y implementar las que pidan (mismas que el backend)
+    //Cambiar nombre de TurismoService con los que pida en el examen
+    //Modificar el Dockerfile del front y el docker compose
+
+
+
 }

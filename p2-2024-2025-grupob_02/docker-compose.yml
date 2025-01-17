@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   backend:
-    image: frangarrido15/backendpractica:1
+    image: rorrenss/backendpractica:1
     container_name: backendJV
     ports:
       - "8082:8082"
@@ -14,7 +14,7 @@ services:
       - ./Comunidades_Agrupadas.json:/app/Comunidades_Agrupadas.json
 
   frontend:
-    image: frangarrido15/frontendpractica:1
+    image: rorrenss/frontendpractica:1
     container_name: frontendJv
     ports:
       - "8207:8081"

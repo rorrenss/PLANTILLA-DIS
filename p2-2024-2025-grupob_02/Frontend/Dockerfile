@@ -4,6 +4,7 @@ WORKDIR /app
 # Copiar el archivo JAR y recursos generados
 COPY Frontend/target/*.jar app.jar
 COPY Comunidades_Agrupadas.json Comunidades_Agrupadas.json
+#Cambiarlo con el JSON que me de
 
 EXPOSE 8081
 
